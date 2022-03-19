@@ -8,7 +8,7 @@ import java.util.List;
 
 public class JpaMain {
 
-    public static void main(String[] args) {
+/*    public static void main(String[] args) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("hello");
 
         EntityManager em = emf.createEntityManager();
@@ -17,7 +17,7 @@ public class JpaMain {
         tx.begin();
 
         try {
-            /*
+
             Member member = new Member();
             member.setId(2L);
             member.setName("HelloB");
@@ -35,7 +35,6 @@ public class JpaMain {
             for (Member member : result) {
                 System.out.println("member.getName() = " + member.getName());
             }
-            */
 
             tx.commit();
         } catch(Exception e) {
@@ -45,5 +44,5 @@ public class JpaMain {
         }
 
         emf.close();
-    }
+    }*/
 }
